@@ -21,9 +21,13 @@ function handleSubmit(event) {
     console.log(res.status);
     console.log(res.data);
 
-    document.getElementById(
-      "results"
-    ).innerHTML = `The input text is ${res.data.subjectivity.toLowerCase()}`;
+    document.getElementById("results").innerHTML = `The article score is :
+    { Agreement : ${res.data.agreement.toLowerCase()}, 
+    Confidence : ${res.data.confidence.toLowerCase()}, 
+    Subjectivity : ${res.data.subjectivity.toLowerCase()}, 
+    Irony : ${res.data.irony.toLowerCase()}, 
+    Score_tag : ${res.data.score_tag.toLowerCase()} }
+    `;
   });
 }
 

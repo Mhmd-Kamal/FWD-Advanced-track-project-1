@@ -12,6 +12,8 @@ This project is a web app that receives user text input and then uses meaning cl
 
 - User's input is validated using client-side JS validation using regex patterns.
 
+- The app has been deployed at https://secure-dusk-13267.herokuapp.com/
+
 ## Technologies used
 
 webpack, sass, nodejs, expressjs, axios

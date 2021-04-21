@@ -13,7 +13,7 @@ function handleSubmit(event) {
   // Post user input to server
   axios({
     method: "post",
-    url: "http://localhost:8081/test",
+    url: "/test",
     data: {
       text: formText,
     },
